@@ -1,100 +1,90 @@
-l# 🧩 YouTube Enhancer for iOS Safari  
-A powerful userscript that upgrades YouTube on **iPhone and iPad Safari** with background playback, Picture-in-Picture, ad-removal, quality controls, floating tools, and a smooth desktop-class player — all without jailbreak, tweaks, or shady apps.
+# YouTube Enhancer for iOS Safari
 
-This script is designed specifically for **iOS Safari** and works seamlessly through the **Stay** Safari extension.
-
----
-
-## ✨ Features
-
-### 🎥 Player Enhancements  
-- Picture-in-Picture (PiP) support  
-- Fullscreen enhancements with better control  
-- Smooth autoplay and next-video handling  
-- Automatic desktop mode (app=desktop) for full YouTube features  
-- Auto-convert youtu.be & Shorts links to desktop watch pages
-
-### 🔊 Audio & Background Playback  
-- True background playback (even when Safari is minimized or screen is off)  
-- Forced unmute + volume normalization  
-- Prevents YouTube’s visibility-based playback blocking
-
-### 🚫 Ad Protection  
-- CSS-level ad blocking  
-- Automatic removal of ad elements  
-- Auto-clicks skip buttons when needed  
-
-### 🎛️ UI Improvements  
-- Floating quick control buttons (Quality, PiP, Fullscreen)  
-- Dynamic quality selector with sticky quality mode  
-- Clean anchor rewriting (forces desktop mode everywhere)
-
-### ⚙️ Technical Enhancements  
-- Smart mutation observers for SPA navigation  
-- URL normalization for all YouTube routes  
-- iOS-optimized Picture-in-Picture handling (including WebKit modes)  
-- Robust autoplay kickstarter (fixes YouTube “tap to play” blocks)
+A userscript designed to improve YouTube functionality in **Safari on iPhone and iPad**.  
+The script enables background playback, Picture-in-Picture, ad removal, quality controls, and interface adjustments.  
+It operates entirely on the client side and integrates through the **Stay** Safari extension.
 
 ---
 
-## 📲 Installation Guide (via Stay — iOS Safari Extension)
+## Features
 
-A simple setup that takes less than 2 minutes.
+### Playback & Interface
+- Picture-in-Picture support  
+- Improved fullscreen behavior  
+- Autoplay and next-video initiation  
+- Forced desktop mode (`app=desktop`) for consistent player behavior  
 
-### STEP 1 — Install Stay from the App Store  
-Download Stay:  
+### Background Audio
+- Background playback when Safari is minimized or the screen is off  
+- Forced unmute with stabilized volume  
+- Prevents YouTube from pausing when Safari is not active  
+
+### Ad Handling
+- Removes visible ad components using CSS  
+- Cleans dynamically injected ad containers  
+
+### User Interface Enhancements
+- Floating controls for Quality, PiP, and Fullscreen  
+- Quality selector with optional persistent preference  
+
+### Technical Improvements
+- SPA-compatible navigation handling  
+- Mutation observers for dynamic YouTube elements  
+- iOS-optimized Picture-in-Picture handling  
+- Autoplay initiation for pages requiring interaction  
+
+---
+
+## Installation (via Stay — Safari Extension)
+
+### 1. Install Stay  
+App Store:  
 https://apps.apple.com/in/app/stay-for-safari/id1591620171
 
-### STEP 2 — Enable Stay in Safari  
-1. Open Settings → Safari → Extensions  
-2. Select Stay  
-3. Toggle ON  
-4. Under Permissions, set All Websites → Allow ✅  
+### 2. Enable Stay in Safari  
+Settings → Safari → Extensions → Stay  
+- Enable the extension  
+- Set **All Websites → Allow**
 
-### STEP 3 — Add the Script Using the RAW Link  
+### 3. Add the Script  
 1. Open the Stay app  
-2. Tap Add Script → From URL / Remote  
-3. Paste the RAW script URL:  
+2. Select **Add Script → From URL / Remote**  
+3. Enter the script URL:  
    https://raw.githubusercontent.com/IM-SPYBOY/YouTube-Enhancer/main/YouTube.js  
-4. Save and ensure the script is enabled
+4. Save and enable the script
 
-### STEP 4 — Enjoy Enhanced YouTube  
-Open Safari → youtube.com  
-You will now see the floating controls for PiP, Quality settings, Fullscreen, and more.
-
----
-
-## ✅ Recommended Usage Tips  
-- Works best on iOS 15 or newer  
-- Add YouTube to your Home Screen for an app-like feel  
-- If buttons don’t appear, refresh once  
-- Desktop mode ensures full player controls and better ad-blocking  
-- Supports Shorts, youtu.be links, and all SPA navigation paths
+### 4. Start Using  
+Open **youtube.com** in Safari.  
+The floating controls will load automatically.
 
 ---
 
-## 📡 Community & Support
-
-Stay updated, get support, or report issues:
-
-- Support Channel: https://t.me/iOSeXe  
-- Main Channel: https://t.me/spyxtube  
-- Discussion Group: https://t.me/spytube_chat  
-- Instagram: https://instagram.com/mr_spyboy  
+## Usage Notes
+- Recommended for **iOS 15+**  
+- Add YouTube to the Home Screen for quick access  
+- Refresh once if the interface controls do not appear  
+- If the script still fails to load, **close Safari from Recents and reopen it**
 
 ---
 
-## 👨‍💻 Author  
-Developed & maintained by **Spyboy**  
-Passionate about creating smooth, powerful, privacy-friendly enhancements for iOS users.
+## Support & Community
+- **Updates:** [spyxtube](https://t.me/spyxtube)  
+- **Support:** [iOSeXe](https://t.me/iOSeXe)  
+- **Community:** [SPY Tube Chat](https://t.me/spytube_chat)  
+- **Instagram:** [@mr_spyboy](https://instagram.com/mr_spyboy)
 
 ---
 
-## ⚠️ Disclaimer  
-This project modifies the client-side behavior of YouTube locally within Safari.  
-It does not bypass DRM, violate YouTube’s TOS, or enable downloading of copyrighted content.  
-For educational and personal-use enhancement only.
+## Author
+Developed and maintained by **Spyboy**
 
 ---
 
-⭐ Enjoying it? Star the repo to support future updates!
+## Disclaimer
+This script modifies only the client-side interface in Safari.  
+It does not bypass DRM, modify video streams, or enable downloading of restricted content.  
+Intended for personal-use interface enhancement.
+
+---
+
+⭐ If you find this useful, consider starring the repository.
