@@ -5,7 +5,7 @@
 // @version      1.1
 // @description  Desktop player; QC; PiP; FS; autoplay/auto-next; background play; ad removal.
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
-// @updateURL    https://github.com/IM-SPYBOY/YouTube-Enhancer/blob/main/YouTube.js
+// @updateURL    https://raw.githubusercontent.com/IM-SPYBOY/YouTube-Enhancer/main/YouTube.js
 // @match        *://*.youtube.com/*
 // @match        *://www.youtube.com/*
 // @match        *://m.youtube.com/*
